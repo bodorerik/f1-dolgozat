@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f5f5f5;
+    color: #333;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #c00000;
+    color: white;
+    padding: 30px;
+    text-align: center;
+        background:
+        linear-gradient(rgba(0,0,0,.6),
+        rgba(0,0,0,.6)),
+        url("f1-bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    background-color: white;
+    border-bottom: 2px solid #c00000;
+    padding: 15px;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu li{
+    margin-left: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    color: #c00000;
+}
+
+.cikk-doboz{
+    background-color: white;
+    border: 1px solid #ddd;
+margin-inline: 10px;
+}
+
+.cikk-doboz img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.cikk-doboz h3{
+    color: #c00000;
+    margin-bottom: 10px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+background-color: #333;
+}
+
+.card{
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.nav-link{
+    font-weight: bold;
+}
+
+
+.card-title{
+    color:#c00000;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.nav-item{
+   margin: 5px;
+}
+
+table tr td{
+    border:1px black solid;
+    text-align: center;
+    width: 250px;
+}
+th{
+     border:1px black solid;
+     text-align: center;
+}
+table tr{
+    height: 30px;
+
+}
+
+h3{
+    margin-top: 10px;
+    color:#c00000;
+    font-weight: bold;    
+
+}
+
+
+h6{
+    text-align:  center;
+    margin-top: 10px;
+    color:#c00000;
+    font-weight: bold;
+}
+#masodiksor{
+    margin-top: 10px;
+}
+
+.elsösor{
+    background-color: red;
+}
+
+.navbar-brand fw-bold{
+
+    
+}
+
+.hírek{
+    margin: auto;
+}
